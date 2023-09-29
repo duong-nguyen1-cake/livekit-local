@@ -1,0 +1,23 @@
+port: 7880
+rtc:
+  udp_port: 7882
+  tcp_port: 7881
+  use_external_ip: false
+# pli_throttle:
+#   low_quality: 500ms
+#   mid_quality: 1s
+#   high_quality: 1s
+keys:
+  APITT5TaPCDdfsr: WyGjhbNnUdu1fxCRxMoEbhSeVboIMzc6OPnRsmq78UG
+logging:
+  json: false
+  level: debug
+redis:
+  address: redis:6379
+  username: ""
+  password: ""
+  db: 0
+webhook:
+  api_key: APITT5TaPCDdfsr
+  urls:
+    - http://host.docker.internal:9000/internal/cake-video-ekyc/webhook
