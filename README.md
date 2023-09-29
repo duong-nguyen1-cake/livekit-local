@@ -2,8 +2,9 @@
 
 ## Prerequisites
 ### Install magefile
+https://magefile.org/
 ```
-brew install magefile
+brew install mage
 ```
 
 ### LiveKit server
