@@ -36,10 +36,6 @@ services:
       - redis
     cap_add:
       - CAP_SYS_ADMIN
-  ingest:
-    build: .
-    ports:
-      - "8000:8000"
   redis:
     image: redis:6-alpine
     ports:
